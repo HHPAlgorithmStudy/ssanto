@@ -14,7 +14,7 @@ public class queue {
                 result.add(arr[i]);  // 중복되지 않은 숫자를 추가
             }
         }
-        
+
         int[] answer = new int[result.size()];
         for (int i = 0; i < result.size(); i++) {
             answer[i] = result.get(i);
